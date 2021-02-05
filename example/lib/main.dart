@@ -76,7 +76,9 @@ class _MyAppState extends State<MyApp> {
 
   Future<void> initPlatformState() async {
     await FlutterFreshchat.init(
-        appID: "YOUR_API_KEY_HERE", appKey: "YOUR_APP_KEY_HERE");
+        appID: "915e234b-6d75-4ea5-b721-28abbb91bf43",
+        appKey: "9100de0e-6b5e-4ec0-ab42-e2a13e1d73b6",
+        domain: "msdk.in.freshchat.com");
   }
 
   @override
